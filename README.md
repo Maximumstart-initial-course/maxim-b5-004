@@ -1,4 +1,4 @@
-# Начальный курс веб-разработки
+﻿# Начальный курс веб-разработки
 
 * Студент:  `Максим Хращук`.
 * Ментор: `Паша Князевич`.
@@ -6,6 +6,7 @@
 * Требования к выпускному проекту: [тут](https://drive.google.com/open?id=1NsSIElGCQ6BvFFpnPRSQdisfcBkq-W0WqcLrTM7wl2I).
 * Основные репозитории: [здесь](https://github.com/Maximumstart-initial-course).
 * Репозиторий с домашними заданиями: [там](https://github.com/MaximumStart/initial-course).
+* [ Профиль на htmlacademy : ](https://htmlacademy.ru/profile/id887419)
 
 ---
 
