@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet"href="http://maximumstart.herokuapp.com/form.css"> 
+</head>
+<body>
+    <form class="form" action="http://maximumstart.herokuapp.com/register" method="POST" >
+    	<p>
+    		<h1>Регистрация</h1>
+            <p>*Все поля обязательны к заполнению</p>
+    	</p>
+    	<p>
+	        <label for="name-field">Имя</label>
+	        <input type="name" id="name-field" name="name" required>
+        </p>
+        <p>
+	        <label for="surname-field">Фамилия</label>
+	        <input type="surname" id="surname-field" name="surname" required>
+        </p>
+        <p>
+	        <label for="tel-field">Номер</label>
+            <input placeholder="+38(0XX)XXX-XXXX" type="tel" id="tel-field" name="phone" required>
+        </p>
+        <p>
+        	<p>Любимый цвет</p>
+            <p><input type="color" list="colorList" name="color" required></p>
+            <datalist id="colorList">
+            <option value="#ff0000" label="Красный">
+            <option value="#008000" label="Зелёный">
+            <option value="#0000ff" label="Синий">
+            </datalist>
+        </p>
+        <p>
+	        <label for="date-field">Сегодняшнее число</label>
+	        <input type="date" id="date-field" name="date" required>
+        </p>
+        <p>
+        	<label for="password-field">Пароль</label>
+	        <input type="password" id="password-field" name="password" required>
+        </p>
+       
+            <label for="gender-man">Мальчик</label>
+            <input type="radio" id="gender-man" name="gender" value="Мальчик">
+            <label for="gender-woman">Девочка</label>
+            <input type="radio" id="gender-woman" name="gender" value="Девочка"  >
+            <label for="gender-noname">Не определился</label>
+			<input type="radio" id="gender-noname" name="gender" value="Не определился">
+      
+        <p>
+	        <label for="message-textarea">Сообщение</label>
+	        <textarea name="message" id="message-textarea" cols="30" rows="10"></textarea>
+        </p>
+         <input type="submit" value="Отправить">
+    </form>
+</body>
+</html>
